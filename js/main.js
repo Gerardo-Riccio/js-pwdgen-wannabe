@@ -26,6 +26,18 @@
 // FINE (NON RICHIESTO) - modificare il contehnuto HTML
 
 
+//////////////////// INIZIO EXTRA ////////////////////
+//al posto del 21
+//documentati su come trasformare una stringa in un numero
+
+
+
+const firstNumber = prompt('Ti chiederemo 2 numeri diversi (il primo deve essere maggiore del secondo) Inserisci il primo numero');
+const secondNumber = prompt('Inserisci il secondo numero');
+
+
+
+//////////////////// FINE EXTRA ////////////////////
 
     
 
