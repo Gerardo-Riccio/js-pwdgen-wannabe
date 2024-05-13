@@ -29,28 +29,15 @@
     console.log(output); 
 // FINE - Stampa la variabile in console
 
-// INIZIO (NON RICHIESTO) - modificare il contehnuto HTML
+// INIZIO - modificare il contehnuto HTML
     document.getElementById('nome-utente').innerHTML = firstName;
     document.getElementById('cognome-utente').innerHTML = lastName;
     document.getElementById('colorePreferito-utente').innerHTML = colorFavorite;
 //////////////////// INIZIO EXTRA Mostrare la password generata nel Layout HTML////////////////////
     document.getElementById('passwordDefault').innerHTML =`${firstName}${lastName}${colorFavorite}21`;
     document.getElementById('passwordExtra').innerHTML =`${firstName}${lastName}${colorFavorite}${numberComplete}`;
-
 //////////////////// FINE EXTRA Mostrare la password generata nel Layout HTML////////////////////
-// FINE (NON RICHIESTO) - modificare il contehnuto HTML
-
-
-//////////////////// INIZIO EXTRA ////////////////////
-//al posto del 21
-//documentati su come trasformare una stringa in un numero
-
-
-
-
-
-//////////////////// FINE EXTRA ////////////////////
-
+// FINE - modificare il contehnuto HTML
     
 
 
